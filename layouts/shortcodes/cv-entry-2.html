@@ -1,0 +1,17 @@
+<div style="display: table; width: 100%;">
+    <div style="display: table-cell; width: 75%;">
+    <span>
+        {{.Get 0 | markdownify}}
+    </span>
+</div>
+<div style="display: table-cell; width: 25%; text-align: right;">
+
+<span>
+        {{.Get 1 | markdownify}}
+    </span>
+</div>
+</div>
+
+<div style="width: 75%; text-align: justify;">
+{{.Inner | markdownify}}
+</div>

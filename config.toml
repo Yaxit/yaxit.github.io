@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://www.yaxit.ml"
 title   = "Andrea's Den"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -25,7 +25,7 @@ enableEmoji     = true
   enableSharingButtons = true
 
   # Subtitle for home
-  homeSubtitle = "My new cozy place"
+  homeSubtitle = "Electrical Engineer // Master Student @ ETH Zurich"
   [params.logo]
     logoMark     = ">"
     logoText     = "$ cd /home/"
