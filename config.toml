@@ -1,0 +1,46 @@
+baseURL = "https://example.com"
+title   = "Andrea's Den"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+paginate = 10
+enableRobotsTXT = true
+enableEmoji     = true
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Andrea Ronco"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  description = "Andrea Ronco"
+  keywords = "homepage, blog"
+
+  enableSharingButtons = true
+
+  # Subtitle for home
+  homeSubtitle = "My new cozy place"
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"  
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+  [[menu.main]]
+    identifier = "Curriculum Vitae"
+    name       = "Curriculum Vitae"
+    url        = "cv/"
