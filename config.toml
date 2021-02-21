@@ -25,11 +25,31 @@ enableEmoji     = true
   enableSharingButtons = true
 
   # Subtitle for home
-  homeSubtitle = "Electrical Engineer // Master Student @ ETH Zurich"
+  homeSubtitle = "Electrical Engineer // Master Student @ ETH Zürich"
   [params.logo]
     logoMark     = ">"
     logoText     = "$ cd /home/"
-    logoHomeLink = "/"  
+    logoHomeLink = "/" 
+  
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/theyaxit"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:andr.ronco@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/Yaxit/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/andrea-ronco/"
+
+#  [[params.social]]
+#    name = "stackoverflow"
+#    url  = "https://www.stackoverflow.com/"
 
 [menu]
   [[menu.main]]
@@ -41,6 +61,6 @@ enableEmoji     = true
     name       = "Posts"
     url        = "posts/"
   [[menu.main]]
-    identifier = "Curriculum Vitae"
+    identifier = "cv"
     name       = "Curriculum Vitae"
     url        = "cv/"
