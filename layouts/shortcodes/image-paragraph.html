@@ -1,4 +1,36 @@
+{{ $imgSize := .Get `img-size`}}
+{{ $incrImgSize := (mul (float $imgSize) 1.5)}}
+{{ $side := .Get `side`}}
 
+<style>
+    @media (min-width: 800px){
+        .img-container {
+            {{ if eq $side "left"}}
+            margin: 0pt 8pt 2pt 0pt;
+            float: left;
+            {{ else }}
+            margin: 0pt 0pt 2pt 8pt;
+            float :right;
+            {{ end }}
+            width: {{ $imgSize}}%;
+        }
+    }
+    @media (max-width: 799px){
+        .img-container {
+            margin: 0 auto;
+            width: {{ $incrImgSize }}%;
+            
+        }
+    }
+</style>
+
+<div>
+    <div class="img-container">
+        <img src="/{{.Get `src`}}" style="border-radius: 10px;">
+    </div>
     {{.Inner | markdownify}}
-    <img src="/{{.Get `src`}}" alt="Hello Friend" position="center" style="border-radius: 10px; margin: 2pt; float: left; width: {{.Get `img-size`}}%;">
+    <div style="clear: both;"></div>
+
+</div>
+
 

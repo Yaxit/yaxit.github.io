@@ -5,15 +5,17 @@ draft: false
 ---
 ## Education
 {{< cv-entry-4 "**ETH Zürich**" "*MSc*" "Zürich, Switzerland" "**2019-present**" >}}
-Electrical Engineering and Information Technology
+*Electrical Engineering and Information Technology*\
+Specialization in Communications, Security, Embedded Systems, Machine Learning on Microcontrollers,.
 {{< /cv-entry-4 >}}
 
 {{< cv-entry-4 "**Polytechnic of Turin**" "*BSc*" "Turin, Italy" "**2016-2019**" >}}
-Electronic Engineering
+*Electronic Engineering*\
+Fundamentals of Engineering, fundamentals of Circuits, Analog and Digital Electronics.
 {{< /cv-entry-4 >}}
 
 {{< cv-entry-4 "**Liceo Salesiano Valsalice**" "*Diploma*" "Turin, Italy" "**2011-2016**" >}}
-Highschool Scientific Diploma
+*Highschool Scientific Diploma*
 {{< /cv-entry-4 >}}
 
 ---
@@ -42,14 +44,14 @@ The sensor aids the stabilization of a Crazyflie drone and will be used in futur
 
 \
 {{< cv-entry-3 "**Federated Learning on PULP**" "*Course Project*" "**2020**" >}}\
-A two-students team project where we developed a Convolutional Neural Network for computer vision tasks on a multicore PULP chip.
-The challenge was developing the full network from scratch in C and to parallelize the the computation on the 8-core platform
-We developed the full network from scratch in C, and parallelized the computation to speed up the training time, showing the feasibility of federated learning withing a reduced power-envelop.
+In this two-students team project we developed a Convolutional Neural Network for computer vision tasks on a multicore PULP chip.
+The challenge was to develop both the forward and the backward propagation passes and to parallelize the computation on the 8-core platform.
+We implemented our solution in C and showed the feasibility of federated learning withing a reduced power-envelop.
 {{< /cv-entry-3 >}}
 
 \
 {{< cv-entry-3 "**Deep Convolutional Networks on STM32**" "*Course Project*" "**2020**" >}}\
-I developed and evaluated different techniques to port a Keras neural network on the STM32, focusing on the efficiency tradeoff between floating-point implementation and quantized networks for memory and power critical settings.
+I developed and evaluated different techniques to port a Keras neural network on the STM32, focusing on the efficiency and accuracy tradeoffs between floating-point implementation and quantized networks for memory and power critical settings.
 {{< /cv-entry-3 >}}
 
 
