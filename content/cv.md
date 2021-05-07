@@ -54,6 +54,7 @@ We implemented our solution in C and showed the feasibility of federated learnin
 I developed and evaluated different techniques to port a Keras neural network on the STM32, focusing on the efficiency and accuracy tradeoffs between floating-point implementation and quantized networks for memory and power critical settings.
 {{< /cv-entry-3 >}}
 
+---
 
 ## Computer Skills
 
@@ -63,6 +64,7 @@ I developed and evaluated different techniques to port a Keras neural network on
 
 {{< cv-entry-2 "HTML, CSS, VHDL, Verilog, PHP" "Basic" >}}{{< /cv-entry-2 >}}
 
+---
 
 ## Languages
 {{< cv-entry-2 Italian Mothertongue >}}{{< /cv-entry-2 >}}
