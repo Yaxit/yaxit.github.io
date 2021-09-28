@@ -37,6 +37,13 @@ evaluate MTBF of some aircraft components to improve reliability.
 
 ## Selected Projects
 
+{{< cv-entry-3 "**Wearable and Embedded Gesture Recognition with Novel Short-Range Radars**" "*Master's Thesis*" "**2021**" >}}\
+During my Master's Thesis semester I developed a wearable embedded system for hand gesture recognition.
+The device is based on a short-range FMCW radar sensor, and makes use of a efficient neural network to perform on-device inference in real time.
+I took care of both the hardware design (PCB, components selection), the software (neural network, system firmware, Bluetooth low energy, Android App development) as well as data acquisition and evaluation.
+{{< /cv-entry-3 >}}
+
+\
 {{< cv-entry-3 "**Optical Flow for Drones on PULP**" "*Semester Thesis*" "**2020**" >}}\
 During the Thesis, I ported the driver for an Optical Flow Sensor (PMW3901, PixArt) from the STM32 to a PULP chip.
 The sensor aids the stabilization of a Crazyflie drone and will be used in future projects for a PULP-based nano-UAV.
@@ -46,7 +53,7 @@ The sensor aids the stabilization of a Crazyflie drone and will be used in futur
 {{< cv-entry-3 "**Federated Learning on PULP**" "*Course Project*" "**2020**" >}}\
 In this two-students team project we developed a Convolutional Neural Network for computer vision tasks on a multicore PULP chip.
 The challenge was to develop both the forward and the backward propagation passes and to parallelize the computation on the 8-core platform.
-We implemented our solution in C and showed the feasibility of federated learning withing a reduced power-envelop.
+We implemented our solution in C and showed the feasibility of federated learning within a reduced power-envelop.
 {{< /cv-entry-3 >}}
 
 \
