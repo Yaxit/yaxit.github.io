@@ -5,7 +5,7 @@ A snippet of pure html
 <h3 id="sub-sub-title">Sub-Sub title</h3>
 <p>Some text</p>
 <p>A <em>snippet</em> of pure <strong>html</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">  &lt;<span style="color:#f92672">html</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">  &lt;<span style="color:#f92672">html</span>&gt;
   &lt;<span style="color:#f92672">body</span>&gt;
   &lt;/<span style="color:#f92672">body</span>&gt;
   &lt;/<span style="color:#f92672">html</span>&gt;
