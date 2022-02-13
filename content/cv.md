@@ -4,9 +4,10 @@ date: 2021-02-17T20:12:40+01:00
 draft: false
 ---
 ## Education
-{{< cv-entry-4 "**ETH Zürich**" "*MSc*" "Zürich, Switzerland" "**2019-present**" >}}
+{{< cv-entry-4 "**ETH Zürich**" "*MSc*" "Zürich, Switzerland" "**2019-2021**" >}}
 *Electrical Engineering and Information Technology*\
-Specialization in Communications, Security, Embedded Systems, Machine Learning on Microcontrollers,.
+Specialization in TinyML, Embedded Systems, Low-Power Design.
+In addition, I joined courses on Communication Networks, Security and VLSI.
 {{< /cv-entry-4 >}}
 
 {{< cv-entry-4 "**Polytechnic of Turin**" "*BSc*" "Turin, Italy" "**2016-2019**" >}}
@@ -21,6 +22,15 @@ Fundamentals of Engineering, fundamentals of Circuits, Analog and Digital Electr
 ---
 
 ## Work Experience and Team Projects
+{{< cv-entry-3 "**ETH Zurich - PBL**" "*Scientific Assistant*" "**2018-2019**" >}}\
+I'm currently employed at the *Project Based Learning* lab at ETH Zurich as a Research Assistant.
+My research track is focused, but not limited, to TinyML, smart-sensors and low-power design.
+In addition, I supervise some students during their thesis/projects.
+The position requires self-organization, time managment, autonomy, team-work and efficient collaboration with
+other research groups and companies.
+{{< /cv-entry-3 >}}
+
+\
 {{< cv-entry-3 "**Team PoliTOcean**" "*Member*" "**2018-2019**" >}}\
 I’ve been member of a student team at Polytechnic of Turin in the Electronic area. Together
 with my team we designed a rover to be presented at the MATE International ROV
@@ -65,9 +75,9 @@ I developed and evaluated different techniques to port a Keras neural network on
 
 ## Computer Skills
 
-{{< cv-entry-2 "Python, C, C++, Linux, Git" "Advanced" >}}{{< /cv-entry-2 >}}
+{{< cv-entry-2 "Python, C, C++, Linux, Git, Tensorflow, Keras" "Advanced" >}}{{< /cv-entry-2 >}}
 
-{{< cv-entry-2 "Bash, LaTeX, Keras, PyTorch" "Intermediate" >}}{{< /cv-entry-2 >}}
+{{< cv-entry-2 "Bash, LaTeX, PyTorch, Rust" "Intermediate" >}}{{< /cv-entry-2 >}}
 
 {{< cv-entry-2 "HTML, CSS, VHDL, Verilog, PHP" "Basic" >}}{{< /cv-entry-2 >}}
 
