@@ -6,8 +6,8 @@ draft: false
 ## Education
 {{< cv-entry-4 "**ETH Zürich**" "*MSc*" "Zürich, Switzerland" "**2019-2021**" >}}
 *Electrical Engineering and Information Technology*\
-Specialization in TinyML, Embedded Systems, Low-Power Design.
-In addition, I joined courses on Communication Networks, Security and VLSI.
+Specialization in TinyML, Embedded Systems, Sensors, Low-Power Design.
+In addition, I joined courses on Communication Networks, Network and System Security and VLSI.
 {{< /cv-entry-4 >}}
 
 {{< cv-entry-4 "**Polytechnic of Turin**" "*BSc*" "Turin, Italy" "**2016-2019**" >}}
@@ -22,8 +22,8 @@ Fundamentals of Engineering, fundamentals of Circuits, Analog and Digital Electr
 ---
 
 ## Work Experience and Team Projects
-{{< cv-entry-3 "**ETH Zurich - PBL**" "*Scientific Assistant*" "**2018-2019**" >}}\
-I'm currently employed at the *Project Based Learning* lab at ETH Zurich as a Research Assistant.
+{{< cv-entry-3 "**ETH Zurich - PBL**" "*Scientific Assistant*" "**2021-now**" >}}\
+I am currently employed at the *Project Based Learning* lab at ETH Zurich as a Research Assistant.
 My research track is focused, but not limited, to TinyML, smart-sensors and low-power design.
 In addition, I supervise some students during their thesis/projects.
 The position requires self-organization, time managment, autonomy, team-work and efficient collaboration with
@@ -32,7 +32,7 @@ other research groups and companies.
 
 \
 {{< cv-entry-3 "**Team PoliTOcean**" "*Member*" "**2018-2019**" >}}\
-I’ve been member of a student team at Polytechnic of Turin in the Electronic area. Together
+I have been member of a student team at Polytechnic of Turin in the Electronic area. Together
 with my team we designed a rover to be presented at the MATE International ROV
 Competition in the US.
 {{< /cv-entry-3 >}}
@@ -49,8 +49,8 @@ evaluate MTBF of some aircraft components to improve reliability.
 
 {{< cv-entry-3 "**Wearable and Embedded Gesture Recognition with Novel Short-Range Radars**" "*Master's Thesis*" "**2021**" >}}\
 During my Master's Thesis semester I developed a wearable embedded system for hand gesture recognition.
-The device is based on a short-range FMCW radar sensor, and makes use of a efficient neural network to perform on-device inference in real time.
-I took care of both the hardware design (PCB, components selection), the software (neural network, system firmware, Bluetooth low energy, Android App development) as well as data acquisition and evaluation.
+The device is equipped with a novel short-range radar sensor, and applies signal processing and machine learning to perform on-device real-time inference.
+I followed the project in all its aspects, starting from the dataset acquisition and evaluation, and then moving to the hardware development (component selection, PCB design and assembly) and the software side (neural network development, evaluation and deployment on the microcontroller, system firmware, Bluetooth LE interface, Android App).
 {{< /cv-entry-3 >}}
 
 \
@@ -77,9 +77,9 @@ I developed and evaluated different techniques to port a Keras neural network on
 
 {{< cv-entry-2 "Python, C, C++, Linux, Git, Tensorflow, Keras" "Advanced" >}}{{< /cv-entry-2 >}}
 
-{{< cv-entry-2 "Bash, LaTeX, PyTorch, Rust" "Intermediate" >}}{{< /cv-entry-2 >}}
+{{< cv-entry-2 "Bash, LaTeX, PyTorch" "Intermediate" >}}{{< /cv-entry-2 >}}
 
-{{< cv-entry-2 "HTML, CSS, VHDL, Verilog, PHP" "Basic" >}}{{< /cv-entry-2 >}}
+{{< cv-entry-2 "HTML, CSS, VHDL, Verilog, PHP, Rust" "Basic" >}}{{< /cv-entry-2 >}}
 
 ---
 
