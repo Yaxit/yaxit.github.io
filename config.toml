@@ -26,12 +26,12 @@ enableEmoji     = true
   enableSharingButtons = true
 
   # Subtitle for home
-  homeSubtitle = "Electrical Engineer // Master Student @ ETH Zürich"
+  homeSubtitle = "Electrical Engineer // Researcher @ ETH Zürich"
   [params.logo]
     logoMark     = ">"
     logoText     = "$ cd /home/"
-    logoHomeLink = "/" 
-  
+    logoHomeLink = "/"
+
   [[params.social]]
     name = "twitter"
     url  = "https://twitter.com/theyaxit"
