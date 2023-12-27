@@ -4,86 +4,86 @@ date: 2021-02-17T20:12:40+01:00
 draft: false
 ---
 ## Education
-{{< cv-entry-4 "**ETH Zürich**" "*MSc*" "Zürich, Switzerland" "**2019-2021**" >}}
+{{< cv-entry-2 "**ETH Zürich**, *MSc*, Zürich, Switzerland" "**2019-2021**" >}}
 *Electrical Engineering and Information Technology*\
 Specialization in TinyML, Embedded Systems, Sensors, Low-Power Design.
 In addition, I joined courses on Communication Networks, Network and System Security and VLSI.
-{{< /cv-entry-4 >}}
-
-{{< cv-entry-4 "**Polytechnic of Turin**" "*BSc*" "Turin, Italy" "**2016-2019**" >}}
+{{< /cv-entry-2 >}}
+\
+{{< cv-entry-2 "**Polytechnic of Turin**, *BSc*, Turin, Italy" "**2016-2019**" >}}
 *Electronic Engineering*\
 Fundamentals of Engineering, fundamentals of Circuits, Analog and Digital Electronics.
-{{< /cv-entry-4 >}}
-
-{{< cv-entry-4 "**Liceo Salesiano Valsalice**" "*Diploma*" "Turin, Italy" "**2011-2016**" >}}
+{{< /cv-entry-2 >}}
+\
+{{< cv-entry-2 "**Liceo Salesiano Valsalice**, *Diploma*, Turin, Italy" "**2011-2016**" >}}
 *Highschool Scientific Diploma*
-{{< /cv-entry-4 >}}
+{{< /cv-entry-2 >}}
 
 ---
 
 ## Work Experience and Team Projects
-{{< cv-entry-3 "**ETH Zurich - PBL**" "*Scientific Assistant*" "**2021-now**" >}}\
-I am currently employed at the *Project Based Learning* lab at ETH Zurich as a Research Assistant.
+{{< cv-entry-2 "**ETH Zurich - PBL**, Scientific Assistant" "**2021-now**" >}}
+I currenly work as a Research Assistant at the *Center for Project-Based Learning* at ETH Zurich.
 My research track is focused, but not limited, to TinyML, smart-sensors and low-power design.
 In addition, I supervise some students during their thesis/projects.
 The position requires self-organization, time managment, autonomy, team-work and efficient collaboration with
 other research groups and companies.
-{{< /cv-entry-3 >}}
+{{< /cv-entry-2 >}}
 
 \
-{{< cv-entry-3 "**Team PoliTOcean**" "*Member*" "**2018-2019**" >}}\
+{{< cv-entry-2 "**Team PoliTOcean**, Team Member" "**2018-2019**" >}}
 I have been member of a student team at Polytechnic of Turin in the Electronic area. Together
 with my team we designed a rover to be presented at the MATE International ROV
 Competition in the US.
-{{< /cv-entry-3 >}}
+{{< /cv-entry-2 >}}
 
 \
-{{< cv-entry-3 "**Microtecnica S.r.l.**" "*Summer Intern*" "**2015**" >}}\
+{{< cv-entry-2 "**Microtecnica S.r.l.**, Summer Intern" "**2015**" >}}
 Summer internship in the Engineering Area. I analysed data from public databases to
 evaluate MTBF of some aircraft components to improve reliability.
-{{< /cv-entry-3 >}}
+{{< /cv-entry-2 >}}
 
 ---
 
 ## Selected Projects
 
-{{< cv-entry-3 "**Wearable and Embedded Gesture Recognition with Novel Short-Range Radars**" "*Master's Thesis*" "**2021**" >}}\
+{{< cv-entry-2 "**Wearable and Embedded Gesture Recognition with Novel Short-Range Radars**, Master's Thesis" "**2021**" >}}
 During my Master's Thesis semester I developed a wearable embedded system for hand gesture recognition.
 The device is equipped with a novel short-range radar sensor, and applies signal processing and machine learning to perform on-device real-time inference.
 I followed the project in all its aspects, starting from the dataset acquisition and evaluation, and then moving to the hardware development (component selection, PCB design and assembly) and the software side (neural network development, evaluation and deployment on the microcontroller, system firmware, Bluetooth LE interface, Android App).
-{{< /cv-entry-3 >}}
+{{< /cv-entry-2 >}}
 
 \
-{{< cv-entry-3 "**Optical Flow for Drones on PULP**" "*Semester Thesis*" "**2020**" >}}\
+{{< cv-entry-2 "**Optical Flow for Drones on PULP**, Semester Thesis" "**2020**" >}}
 During the Thesis, I ported the driver for an Optical Flow Sensor (PMW3901, PixArt) from the STM32 to a PULP chip.
 The sensor aids the stabilization of a Crazyflie drone and will be used in future projects for a PULP-based nano-UAV.
-{{< /cv-entry-3 >}}
+{{< /cv-entry-2 >}}
 
 \
-{{< cv-entry-3 "**Federated Learning on PULP**" "*Course Project*" "**2020**" >}}\
+{{< cv-entry-2 "**Federated Learning on PULP**, Course Project" "**2020**" >}}
 In this two-students team project we developed a Convolutional Neural Network for computer vision tasks on a multicore PULP chip.
 The challenge was to develop both the forward and the backward propagation passes and to parallelize the computation on the 8-core platform.
 We implemented our solution in C and showed the feasibility of federated learning within a reduced power-envelop.
-{{< /cv-entry-3 >}}
+{{< /cv-entry-2 >}}
 
 \
-{{< cv-entry-3 "**Deep Convolutional Networks on STM32**" "*Course Project*" "**2020**" >}}\
+{{< cv-entry-2 "**Deep Convolutional Networks on STM32**, Course Project" "**2020**" >}}
 I developed and evaluated different techniques to port a Keras neural network on the STM32, focusing on the efficiency and accuracy tradeoffs between floating-point implementation and quantized networks for memory and power critical settings.
-{{< /cv-entry-3 >}}
+{{< /cv-entry-2 >}}
 
 ---
 
 ## Computer Skills
 
-{{< cv-entry-2 "Python, C, C++, Linux, Git, Tensorflow, Keras" "Advanced" >}}{{< /cv-entry-2 >}}
+{{< cv-entry-2 "Python, C, C++, Linux, Git, Tensorflow, Keras" "**Advanced**" >}}{{< /cv-entry-2 >}}
 
-{{< cv-entry-2 "Bash, LaTeX, PyTorch" "Intermediate" >}}{{< /cv-entry-2 >}}
+{{< cv-entry-2 "Bash, LaTeX, PyTorch" "**Intermediate**" >}}{{< /cv-entry-2 >}}
 
-{{< cv-entry-2 "HTML, CSS, VHDL, Verilog, PHP, Rust" "Basic" >}}{{< /cv-entry-2 >}}
+{{< cv-entry-2 "HTML, CSS, VHDL, Verilog, PHP, Rust" "**Basic**" >}}{{< /cv-entry-2 >}}
 
 ---
 
 ## Languages
-{{< cv-entry-2 Italian Mothertongue >}}{{< /cv-entry-2 >}}
+{{< cv-entry-2 Italian "**Mothertongue**" >}}{{< /cv-entry-2 >}}
 
-{{< cv-entry-2 "English (IELTS 8.0)" "Fluent" >}}{{< /cv-entry-2 >}}
+{{< cv-entry-2 "English (IELTS 8.0)" "**Fluent**" >}}{{< /cv-entry-2 >}}
