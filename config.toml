@@ -29,7 +29,7 @@ enableEmoji     = true
   homeSubtitle = "Electrical Engineer // Researcher @ ETH Zürich"
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "cd /home/"
     logoHomeLink = "/"
 
   [[params.social]]
