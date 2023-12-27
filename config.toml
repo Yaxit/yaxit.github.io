@@ -48,9 +48,9 @@ enableEmoji     = true
     name = "linkedin"
     url  = "https://www.linkedin.com/in/andrea-ronco/"
 
-#  [[params.social]]
-#    name = "stackoverflow"
-#    url  = "https://www.stackoverflow.com/"
+  [[params.social]]
+    name = "googlescholar"
+    url  = "https://scholar.google.com/citations?user=q2BNZmwAAAAJ"
 
 [menu]
   [[menu.main]]
