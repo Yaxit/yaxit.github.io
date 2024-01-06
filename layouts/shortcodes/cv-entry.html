@@ -1,0 +1,24 @@
+<div class="cv-container">
+
+    <div class="cv-content">
+        {{ range after 1 $.Params }}
+        <div class="cv-heading">
+            <span>
+                {{ . | markdownify}}
+            </span>
+        </div>
+        {{ end }}
+    </div>
+
+    {{ with .Get 0}}
+    <div class="cv-date">
+        <span>
+            {{ . | markdownify}}
+        </span>
+    </div>
+    {{ end }}
+</div>
+
+<div class="cv-body">
+    {{.Inner | markdownify}}
+</div>
