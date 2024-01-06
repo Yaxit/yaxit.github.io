@@ -63,5 +63,5 @@ enableEmoji     = true
     url        = "posts/"
   [[menu.main]]
     identifier = "cv"
-    name       = "Curriculum Vitae"
+    name       = "CV"
     url        = "cv/"
