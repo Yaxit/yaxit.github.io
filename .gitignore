@@ -1,0 +1,6 @@
+# local build
+public/
+resources/
+
+# lock file
+.hugo_build.lock

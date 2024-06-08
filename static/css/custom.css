@@ -1,5 +1,5 @@
 .post-content {
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .cv-container {
@@ -36,6 +36,18 @@
     text-align: right;
 }
 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[src$='#half'] {
+    display: block;
+    max-width: 50%;
+    height: auto;
+  }
+
 @media screen and (max-width: 900px) {
     .cv-body {
         width: 100%;
@@ -56,4 +68,8 @@
         width: 100%;
         text-align: center;
     }
+
+    img[src$='#half'] {
+        max-width: 100%;
+      }
 }
