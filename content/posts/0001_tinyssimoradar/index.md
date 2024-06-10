@@ -18,7 +18,7 @@ This work was in fact initially developed in 2021 during my Master's Thesis at *
 In a nutshell, this is how **TinyssimoRadar: In-Ear Hand Gesture Recognition with Ultra-Low Power mmWave Radars** came to life.
 
 ### TinyssimoWhat?
-The idea behind this project was as simple as it was fascinating: making our interactions with devices more natural and intuitive. Picture this: instead of fumbling around with buttons or touchscreens, you can simply wave your hand to control your gadgets. Potentially you could even control you devices with subtle finger gestures. Some applications could indeed benefit more than others from such type of interface, but at least this was the oveall vision.
+The idea behind this project was as simple as it was fascinating: making our interactions with devices more natural and intuitive. Picture this: instead of fumbling around with buttons or touchscreens, you can simply wave your hand to control your gadgets. Potentially you could even control you devices with subtle finger gestures. Some applications could indeed benefit more than others from such type of interface, but at least this was the overall vision.
 In general, though, the core idea was to explore in more details the potential of mmWave radars for this kind of task, and what could be built on top of this technology.
 This idea was most notably explored by Google in 2015 with their relatively notorious *Project Soli* ([here's a video](https://www.youtube.com/watch?v=0QNiZfSsPc0) in case you missed it).
 
@@ -26,8 +26,8 @@ This idea was most notably explored by Google in 2015 with their relatively noto
 
 
 ### Radars, old friends
-There are in fact sooo many types of radars that it would take a full lecture to cover them all. However, the methods used in this work are not really very radar-specific, hence it is enought to have a very broad idea of the working principles. If you feel like crawling deeper in the rabbit hole, check out [this website](https://www.radartutorial.eu/index.en.html).
-For the others, it is enought to understand that we used a specific class of radar called Frequency Modulated Continuous Wave (FMCW), which allow us to measure at the same time distance and velocity of a moving object.
+There are in fact sooo many types of radars that it would take a full lecture to cover them all. However, the methods used in this work are not really very radar-specific, hence it is enough to have a very broad idea of the working principles. If you feel like crawling deeper in the rabbit hole, check out [this website](https://www.radartutorial.eu/index.en.html).
+For the others, it is enough to understand that we used a specific class of radar called Frequency Modulated Continuous Wave (FMCW), which allows us to measure at the same time distance and velocity of a moving object.
 This dual capability makes FMCW radars particularly effective for precise gesture recognition, as they can capture the movement of the hand with relative precision. With the dark powers of the *Fourier Transform* we can then transform the rather messy and confusing radar signal into a more meaningful (and rather artistic!) *Range-Doppler Map*, as seen the the figure below.
 
 ![Scenario 1: Across columns](images/frame_doppler.svg)
