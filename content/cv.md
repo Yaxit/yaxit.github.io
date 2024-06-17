@@ -23,8 +23,13 @@ I developed, assembled, and tested parts of the control board of the system.
 
 ## Work Experience
 
-{{< cv-entry  "**2021-now**" "**ETH Zürich - PBL**, Scientific Assistant" >}}
-I currenly work as a Research Assistant at the *Center for Project-Based Learning* at ETH Zürich.
+{{< cv-entry  "**2024-now**" "**Skaaltec**, Engineering and Co-founder" >}}
+At Skaaltec we aim to bring neuro-rehabilitation to the home. Currently I'm responsible of hardware development and software.
+More details soon! 
+{{< /cv-entry >}}
+\
+{{< cv-entry  "**2021-2024**" "**ETH Zürich - PBL**, Scientific Assistant" >}}
+I worked two years and a half as a Research Assistant at the *Center for Project-Based Learning* at ETH Zürich.
 Thanks to the multi-disciplinary nature of the Center, I developed a strong scientific approach to problem-solving, backed by literature research. I worked on several projects with different scope, such as
 - *TinyML and Sensor Fusion*: I fully developed several systems powered by TinyML and novel sensors for research purposes, covering audio applications (Voice Activity Detection), gesture recognition, eye-tracking, and motion classification.
 - *Low-power Embedded and Bluetooth-LE*: I designed prototypes for battery-operated devices, with constraints of dimension and energy budget. Most of the designs include sensing, real-time signal processing and Bluetooth-LE communication.
