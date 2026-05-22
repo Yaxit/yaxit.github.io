@@ -3,6 +3,37 @@ title: "Curriculum Vitae"
 date: 2021-02-17T20:12:40+01:00
 draft: false
 ---
+
+## Professional Summary
+Electrical Engineer with an MSc from ETH Zurich and a background across research and product development. Experienced in embedded systems, sensing technologies, and edge AI, with hands-on work spanning low-power hardware, firmware, and machine learning pipelines. Strong focus on building reliable technical systems and translating research prototypes into practical solutions.
+
+## Work Experience
+{{< cv-entry  "**2026-now**" "**Huawei Technologies**, Senior Research Engineer" >}}
+Part of the Computer Vision and Machine Learning Lab, focused on AI for wearable devices. Work includes gesture recognition algorithms for smart watches, time-series modeling, and event detection.
+{{< /cv-entry >}}
+\
+{{< cv-entry  "**2024-2025**" "**Skaaltec**, Technical Lead - Product Development" >}}
+At Skaaltec, I led neurorehabilitation product development across software, electronics, and system integration, owning critical subsystems and defining technical direction. The hardware platform progressed to certification and clinical trial preparation. Key contributions:
+- *System Design*: Designed and developed two complementary, wirelessly-connected devices: an ultra-low power motion tracking system with embedded fusion algorithms, and a transcutaneous nerve stimulator with precise current-controlled pulse generation capabilities.
+- *Technical Direction*: Established development roadmaps for system components, defined technical specifications based on medical requirements (IEC 60601), and coordinated integration between hardware, utility software, and cloud components.
+{{< /cv-entry >}}
+\
+{{< cv-entry  "**2021-2024**" "**ETH Zürich - Center for Project-Based Learning**, Scientific Assistant" >}}
+In this inter-disciplinary research environment, I developed rigorous scientific methodology and literature-based approaches to rapidly master new technical domains. My research spanned multiple technical domains:
+- *TinyML and Sensor Fusion*: Developed complete embedded systems powered by TinyML and novel sensors for research applications, including real-time audio applications (Voice Activity Detection), gesture recognition, eye-tracking, and motion classification.
+- *Low-power Embedded and Bluetooth-LE*: Designed and implemented resource-constrained prototypes for battery-operated devices with strict dimensional and energy limitations, focusing on sensing capabilities, real-time signal processing chains, and efficient Bluetooth communication protocols.
+- *mmWave Radar*: Pioneered applications of mm-Wave radar technology across multiple domains: biomedical applications (contactless vital sign monitoring), human-machine interfaces (gesture recognition), and advanced perception systems for autonomous robotics.
+
+Concurrently supervised almost 20 student theses, defining research objectives aligned with laboratory goals, establishing project milestones, and providing technical mentorship to ensure successful outcomes. This supervision expanded my research impact while developing leadership skills in technical team management.
+{{< /cv-entry >}}
+\
+{{< cv-entry "**2015**" "**Microtecnica S.r.l.**, Summer Intern" >}}
+Summer internship in the Engineering Area.
+I analyzed data from public databases to evaluate the Mean Time Between Failure (MTBF) of aircraft components and support reliability assessments.
+{{< /cv-entry >}}
+
+---
+
 ## Education
 
 {{< cv-entry "**2019-2021**" "**ETH Zürich**, Zürich, Switzerland" "*MSc. Electrical Engineering and Information Technology*">}}
@@ -14,35 +45,11 @@ draft: false
 - *Fundamentals*: Analysis, Mathematical Methods, Physics, Informatics and Chemistry fundamentals.
 - *Field-Specific*: Solid State Devices, Analog Circuits, Electromagnetic Fields, Digital System Design, OOP.
 - *Extracurricular*: Member of the PoliTOcean student team, developing a water ROV for the international MATE
- ROV competition. Tasks included PCB design, debugging and assembly, and firmware development.
+ROV competition. Tasks included PCB design, debugging and assembly, and firmware development.
 
 {{< /cv-entry >}}
 \
 {{< cv-entry  "**2011-2016**" "**Liceo Salesiano Valsalice**, Turin, Italy" "*Highschool Scientific Diploma*">}}
-{{< /cv-entry >}}
-
----
-
-## Work Experience
-{{< cv-entry  "**2024-now**" "**Skaaltec**, Founding Engineer/Technical Lead/CTO" >}}
-At Skaaltec, I drive technical innovation in neurorehabilitation technology, coordinating development across hardware, firmware, and system integration. I provide technical direction for critical components while harmonizing cross-functional workflows to advance product development efficiently. Key contributions:
-- *System Design*: Designed and developed two complementary, wirelessly-connected devices: an ultra-low power motion tracking system with embedded fusion algorithms, and a transcutaneous nerve stimulator with precise current-controlled pulse generation capabilities.
-- *Technical Direction*: Established development roadmaps for system components, defined technical specifications based on medical requirements (IEC 60601), and coordinated integration between hardware, utility software, and cloud components.
-{{< /cv-entry >}}
-\
-{{< cv-entry  "**2021-2024**" "**ETH Zürich - Center for Project-Based Learning**, Scientific Assistant" >}}
-In this inter-disciplinary research environment, I developed rigorous scientific methodology and literature-based
-approaches to rapidly master new technical domains. My research spanned multiple technical domains:
-- *TinyML and Sensor Fusion*: Developed complete embedded systems powered by TinyML and novel sensors for research applications, including real-time audio applications (Voice Activity Detection), gesture recognition, eye-tracking, and motion classification.
-- *Low-power Embedded and Bluetooth-LE*: Designed and implemented resource-constrained prototypes for battery-operated devices with strict dimensional and energy limitations, focusing on sensing capabilities, real-time signal processing chains, and efficient Bluetooth communication protocols.
-- *mmWave Radar*: Pioneered applications of mm-Wave radar technology across multiple domains: biomedical applications (contactless vital sign monitoring), human-machine interfaces (gesture recognition), and advanced perception systems for autonomous robotics.
-
-Concurrently supervised almost 20 student theses, defining research objectives aligned with laboratory goals, establishing project milestones, and providing technical mentorship to ensure successful outcomes. This supervision expanded my research impact while developing leadership skills in technical team management.
-{{< /cv-entry >}}
-\
-{{< cv-entry "**2015**" "**Microtecnica S.r.l.**, Summer Intern" >}}
-Summer internship in the Engineering Area.
-I analysed data from public databases to evaluate the Mean Time Between Failure (MTBF) of  aircraft components to improve reliability.
 {{< /cv-entry >}}
 
 ---
@@ -53,12 +60,12 @@ Architected and developed a comprehensive neurorehabilitation platform combining
  synchronization.
 {{< /cv-entry >}}
 \
-{{< cv-entry  "**2021-2024**" "**Wearable Sensing Technologies**, Research Projects" >}}
-Designed and implemented wearable prototypes with different sensing modalities, including (1) A motion-tracking bracelet with IMU and magnetometer sensor fusion for orientation estimation, (2) An sEMG-based gesture recognition system, and (3) An in-ear PPG sensor with a custom front-end.
-{{< /cv-entry >}}
-\
 {{< cv-entry  "**2021**" "**Wearable Gesture Recognition with Novel Short-Range Radars**, Research Project" >}}
 Developed a complete wearable earbud device for contactless gesture recognition utilizing novel low-power radar technology. Solely owned the entire development, from dataset acquisition and machine learning model design through hardware implementation (PCB design, firmware development, signal processing algorithms) to end-user Android application with Bluetooth-LE communication.
+{{< /cv-entry >}}
+\
+{{< cv-entry  "**2021-2024**" "**Wearable Sensing Technologies**, Research Projects" >}}
+Designed and implemented wearable prototypes with different sensing modalities, including (1) A motion-tracking bracelet with IMU and magnetometer sensor fusion for orientation estimation, (2) An sEMG-based gesture recognition system, and (3) An in-ear PPG sensor with a custom front-end.
 {{< /cv-entry >}}
 \
 {{< cv-entry  "**2021**" "**Radar-Based Vital Sign Monitoring**, Research Project" >}}
@@ -80,13 +87,41 @@ Developed and evaluated different techniques to port a Keras neural network on t
 
 ---
 
+## Publications
+
+{{< cv-entry  "**2024**" "**TinyssimoRadar: In-Ear Hand Gesture Recognition with Ultra-Low Power mmWave Radars**" >}}
+2024 IEEE/ACM Ninth International Conference on Internet-of-Things Design and Implementation (IoTDI)
+{{< /cv-entry >}}
+\
+{{< cv-entry  "**2022**" "**Machine Learning In-Sensors: Computation-enabled Intelligent Sensors for Next Generation of IoT Platforms**" >}}
+2022 IEEE Sensors
+{{< /cv-entry >}}
+\
+{{< cv-entry  "**2023**" "**In-Ear-Voice: Towards Milli-Watt Audio Enhancement with Bone-Conduction Microphones for In-Ear Sensing**" >}}
+Proceedings of the 8th ACM/IEEE Conference on Internet of Things Design and Implementation
+{{< /cv-entry >}}
+\
+{{< cv-entry  "**2024**" "**Frequency Matters: Comparative Analysis of Low-Power FMCW Radars for Vital Sign Monitoring**" >}}
+IEEE Transactions on Instrumentation and Measurement
+{{< /cv-entry >}}
+\
+{{< cv-entry  "**2023**" "**Towards Robust Velocity and Position Estimation of Opponents for Autonomous Racing Using Low-Power Radar**" >}}
+2023 9th International Workshop on Advances in Sensors and Interfaces
+{{< /cv-entry >}}
+\
+{{< cv-entry  "**2023**" "**Investigation of mmWave Radar Technology for Non-contact Vital Sign Monitoring**" >}}
+2023 IEEE International Symposium on Medical Measurements and Applications
+{{< /cv-entry >}}
+
+---
+
 ## Computer Skills
 
-{{< cv-entry "**Advanced**" "Python, C, C++, Linux, Git, Tensorflow, Keras" >}}{{< /cv-entry >}}
+{{< cv-entry "**Coding & Software**" "C, C++, Python, Rust, Linux, Bash, CMake, Docker, CI/CD, TensorFlow/Keras, PyTorch, OpenCV" >}}{{< /cv-entry >}}
 
-{{< cv-entry "**Intermediate**" "Bash, LaTeX, PyTorch, Rust" >}}{{< /cv-entry >}}
+{{< cv-entry "**Hardware & Embedded**" "PCB design (Altium/KiCAD), debugging and lab equipment, PCB assembly/rework, STM32, ESP32, NRF52/53, bare-metal development, Zephyr RTOS, Bluetooth LE, USB" >}}{{< /cv-entry >}}
 
-{{< cv-entry "**Basic**" "HTML, CSS, VHDL, Verilog, PHP" >}}{{< /cv-entry >}}
+{{< cv-entry "**Additional**" "LaTeX, HTML, CSS, VHDL, Verilog, PHP" >}}{{< /cv-entry >}}
 
 ---
 

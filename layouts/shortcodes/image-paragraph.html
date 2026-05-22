@@ -1,36 +1,14 @@
-{{ $imgSize := .Get `img-size`}}
-{{ $incrImgSize := (mul (float $imgSize) 1.5)}}
-{{ $side := .Get `side`}}
+{{ $imgSize := .Get `img-size` | default "33" }}
+{{ $side := .Get `side` | default "left" }}
+{{ $alt := .Get `alt` | default "" }}
 
-<style>
-    @media (min-width: 800px){
-        .img-container {
-            {{ if eq $side "left"}}
-            margin: 0pt 8pt 2pt 0pt;
-            float: left;
-            {{ else }}
-            margin: 0pt 0pt 2pt 8pt;
-            float :right;
-            {{ end }}
-            width: {{ $imgSize}}%;
-        }
-    }
-    @media (max-width: 799px){
-        .img-container {
-            margin: 0 auto;
-            width: {{ $incrImgSize }}%;
-            
-        }
-    }
-</style>
-
-<div>
-    <div class="img-container">
-        <img src="/{{.Get `src`}}" style="border-radius: 10px;">
+<div class="image-paragraph image-paragraph-{{ $side }}" style="--image-paragraph-size: {{ $imgSize }}%;">
+    <div class="image-paragraph-media">
+        <img src="/{{ .Get `src` }}" alt="{{ $alt }}">
     </div>
-    {{.Inner | markdownify}}
-    <div style="clear: both;"></div>
-
+    <div class="image-paragraph-body">
+        {{ .Inner | markdownify }}
+    </div>
 </div>
 
 

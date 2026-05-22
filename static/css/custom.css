@@ -48,6 +48,39 @@ img[src$='#half'] {
     height: auto;
   }
 
+.image-paragraph {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin: 1rem 0 1.5rem;
+}
+
+.image-paragraph-left {
+    flex-direction: row;
+}
+
+.image-paragraph-right {
+    flex-direction: row-reverse;
+}
+
+.image-paragraph-media {
+    flex: 0 0 var(--image-paragraph-size, 33%);
+    max-width: var(--image-paragraph-size, 33%);
+}
+
+.image-paragraph-media img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0;
+}
+
+.image-paragraph-body {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
 @media screen and (max-width: 900px) {
     .cv-body {
         width: 100%;
@@ -72,4 +105,18 @@ img[src$='#half'] {
     img[src$='#half'] {
         max-width: 100%;
       }
+
+    .image-paragraph,
+    .image-paragraph-left,
+    .image-paragraph-right {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .image-paragraph-media {
+        flex-basis: auto;
+        width: 100%;
+        max-width: min(75%, 320px);
+        margin: 0 auto;
+    }
 }

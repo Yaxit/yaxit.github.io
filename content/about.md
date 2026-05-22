@@ -5,22 +5,25 @@ draft: false
 ---
 
 
-{{< image-paragraph src=pp.jpeg img-size=33 side=left >}}
+{{< image-paragraph src=pp.jpeg img-size=32 side=left alt="Portrait of Andrea Ronco" >}}
 
-I'm Andrea, made in Torino, Italy :it:, and living in Zurich :switzerland: since 2019.
+I am Andrea Ronco, an electrical engineer from Turin, Italy, based in Zurich since 2019.
 
-From the time of my youngling days, I've been fascinated by technology and blinking objects, walking The Path of coding in early highschool, and venturing in electronics shortly after.
-In less than twelve parsecs, I wrapped up my journey as a student at ETH Zurich with a master's degree in Electrical Engineering and IT, and I evolved into a Researcher.
-Currently I work on TinyML, Embedded Systems, Sensors and many other cool things.
-I love to build stuff of questionable utility, and yes, most of it blinks indeed.
+I completed my MSc in Electrical Engineering and Information Technology at ETH Zurich, where I focused on embedded systems, low-power design, sensors and sensor fusion, and machine learning topics.
 
 {{< /image-paragraph >}}
 
-This website mostly serves the purpose of atoning my PHP sins commited in young age.
-However, I might occasionally also write something interesting or useful (but I wouldn't count on it).
+My work has developed across both academic and industrial environments. In research, I worked on TinyML and wearable sensing systems, including projects involving radar-based gesture recognition, vital-sign monitoring, and resource-constrained embedded intelligence. In product development, I worked on neurorehabilitation technology with a system-level perspective spanning hardware, firmware, software integration, and technical roadmapping.
 
-If you ever want to discuss anything, offer a suggestion, or vent your thoughts on the new Star Wars trilogy, don't hesitate to shoot me an email at *andr.ronco@gmail.com*.
+Across these experiences, I have consistently worked on complete technical pipelines: sensor and hardware bring-up, embedded firmware, signal processing, data collection, model development, and deployment constraints on low-power devices. I am particularly interested in systems where practical engineering constraints and machine learning meet, especially in wearable and human-centered applications.
+
+More recently, my focus has included AI for wearable devices, with attention to gesture and time-series understanding. I enjoy the part of this work where careful engineering turns noisy real-world signals into something reliable and useful.
 
 
-*Va fail*,\
+This website is a place where I collect selected projects, publications, and occasional technical notes. It started as a way to keep a clean record of what I build and learn over time, from course and research work to product-oriented development. I also use it as a lightweight lab notebook for ideas, experiments, and implementation details that are useful to revisit later. In short, it is both a portfolio and a technical archive.
+
+Outside of engineering, I enjoy spending time in the mountains around Switzerland, especially hiking and skiing. I also enjoy stories in books and films, and I am always happy to discuss science fiction, including a *(properly) opinionated take on the new Star Wars trilogy.
+
+If you would like to get in touch, you can reach me at *andr.ronco AT gmail.com*.
+
 Andrea
